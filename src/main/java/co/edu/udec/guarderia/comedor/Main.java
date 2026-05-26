@@ -1,4 +1,4 @@
-package com.guarderia.comedor;
+package co.edu.udec.guarderia.comedor;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
