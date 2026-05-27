@@ -1,4 +1,4 @@
-package co.edu.udec.guarderiaComedor.domain.valueObjects;
+package co.edu.udec.guarderiaComedor.domain.ValueObejects;
 
 public record Dni(String valor) {
     public Dni{
