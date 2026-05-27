@@ -14,13 +14,13 @@ class MatriculaTest {
     void debeLanzarExcepcionSiMatriculaVacia(){
         assertThatThrownBy(()->new  Matricula(""))
         .isInstanceOf(IllegalArgumentException.class)
-        .hasMessageContaining("No puede estar vacia");
+        .hasMessageContaining("La matricula no puede estar vacia");
     }
     @Test
     void debeLanzarExcepcionSiFormatoInvalido(){
         assertThatThrownBy(()-> new Matricula("a?1"))
                 .isInstanceOf(IllegalArgumentException.class)
-                .hasMessageContaining("Formato invalido");
+                .hasMessageContaining("Matricula invalida, Usar 3-10 caracteres");
     }
 }
 
