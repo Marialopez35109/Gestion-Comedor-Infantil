@@ -1,4 +1,5 @@
 package co.edu.udec.guarderiaComedor.domain.enums;
 
-public class EstadioNino {
+public enum EstadoNino {
+    ACTIVO, INACTIVO
 }
