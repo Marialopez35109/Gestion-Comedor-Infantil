@@ -1,5 +1,4 @@
 package co.edu.udec.guarderiaComedor.domain.ValueObjects;
-import co.edu.udec.guarderiaComedor.domain.ValueObejects.Dni;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
