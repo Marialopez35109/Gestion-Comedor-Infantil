@@ -1,4 +1,4 @@
-package co.edu.udec.guarderiaComedor.domain.ValueObejects;
+package co.edu.udec.guarderiaComedor.domain.ValueObjects;
 import java.time.LocalDate;
 import java.time.Period;
 

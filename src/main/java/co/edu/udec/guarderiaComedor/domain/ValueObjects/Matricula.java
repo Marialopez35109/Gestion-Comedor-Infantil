@@ -1,4 +1,4 @@
-package co.edu.udec.guarderiaComedor.domain.ValueObejects;
+package co.edu.udec.guarderiaComedor.domain.ValueObjects;
 
 public record Matricula(String valor) {
     public Matricula{
