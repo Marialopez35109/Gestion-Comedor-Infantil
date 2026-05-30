@@ -1,4 +1,14 @@
 package co.edu.udec.guarderiaComedor.domain.ValueObjects;
+import java.time.LocalDate;
 
-public class FechaIngreso {
+public record FechaIngreso(LocalDate valor) {
+    public FechaIngreso{
+        if(valor==null){
+            throw new IllegalArgumentException("La fecha de ingreso no puede ser nula");
+        }
+        if (valor.isAfter(LocalDate.now())) {
+            throw new IllegalArgumentException("La fecha de ingreso no puede ser futura");
+        }
+    }
+
 }
