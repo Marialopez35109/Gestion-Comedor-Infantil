@@ -10,4 +10,7 @@ public record NinoId(String valor) {
             throw new IllegalArgumentException("El id no puede estar vacio");
         }
     }
+    public static NinoId random(){
+        return new NinoId(UUID.randomUUID().toString());
+    }
 }
